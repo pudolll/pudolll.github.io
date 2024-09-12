@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(10,10,10);
+}
+
+#pudol {
+    text-align: center;
+    color: white;
+}
+
+.link {
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+#links {
+    background-color: bisque;
+}
+
+#bio {
+    font-family: sans-serif;
+    color: aliceblue;
+    
+}
+
+@keyframes background_animation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 20% 20%;
+    }
+}
+
+.container{
+    z-index: -9999;
+    overflow: hidden;
+}
+
+.background {
+    z-index: -9999;
+    position: fixed;
+    background-image: url("assets/checkers.png");
+    left: 0px;
+    top: 0px;
+    height: 1920px;
+    width: 1920px;
+    animation: background_animation 30s linear infinite;
+}

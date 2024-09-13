@@ -14,8 +14,11 @@ function log() {
     let pass = prompt("Password:");
     if (name=="voodoo" & pass=="magic") {
         window.alert("Logged!")
-        window.location.replace("http://www.google.com");
+        window.location.replace("access/mail.html");
     } else if (name=="cat" & pass=="cat") {
+        window.alert("")
+        window.location.replace("/assets/ca.png");
+    } else if (name=="" & pass=="cat") {
         window.alert("")
         window.location.replace("/assets/ca.png");
     } else {
